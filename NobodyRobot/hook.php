@@ -8,6 +8,7 @@
  * This is a normal behaviour because this address has to be reached only by Telegram server.
  */
 
+ 
 // Load composer
 require __DIR__ . '/vendor/autoload.php';
 

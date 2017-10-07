@@ -7,8 +7,6 @@
  * Please note that if you open this file with your browser you'll get the "Input is empty!" Exception.
  * This is a normal behaviour because this address has to be reached only by Telegram server.
  */
-
- 
 // Load composer
 require __DIR__ . '/vendor/autoload.php';
 

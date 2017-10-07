@@ -5,17 +5,16 @@
 </head>
 <body dir="rtl">
 
+<?php
 
-	<?php
-
-	include "farsi.php";
+include "farsi.php";
 
 
-	$telegram = json_decode(
-		file_get_contents("https://api.telegram.org/bot437724431:AAEkhUJtPLYSj2ZSI3IhMKlWupYcLR_Ss60/getMe")
-		);
+$telegram = json_decode(
+	file_get_contents("https://api.telegram.org/bot437724431:AAEkhUJtPLYSj2ZSI3IhMKlWupYcLR_Ss60/getMe")
+	);
 
-	if($telegram->ok == true){
+if($telegram->ok == true){
 		echo "<h1>$accOK</h1>";
     /* echo "<h1>اطلاعات ربات</h1>";
     echo "<b>نام کاربري </b>: ".$telegram->result->username;

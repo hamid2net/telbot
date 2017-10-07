@@ -19,9 +19,6 @@ composer.phar
 #Exception output
 TelegramException.log
 
-# Composer
-vendor/
-
 
 # phpDocumentor Logs #
 phpdoc-*
